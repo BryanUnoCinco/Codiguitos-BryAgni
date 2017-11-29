@@ -2,40 +2,35 @@
 <xloco>
     <usuario> 
       <nbusuario>Rene</nbusuario>
-    </usuario>
-    <ontologia> 
-      <nbontologia>conta</nbontologia>
-    </ontologia>
-    <ideal> 
-      <nbideal>calculador de isan</nbideal>
-    </ideal>
-    <atributos>
-      <atributo>
-        <nbatributo>precio</nbatributo> 
-        <tipo>decimal</tipo>
-      </atributo>
-      <atributo> 
-        <nbatributo>liminf</nbatributo> 
-        <tipo>decimal</tipo>
-      </atributo>
-      <atributo> 
-        <nbatributo>limsup</nbatributo> 
-        <tipo>decimal</tipo>
-      </atributo>
-      <atributo> 
-        <nbatributo>tasa</nbatributo> 
-        <tipo>decimal</tipo>
-      </atributo>
-      <atributo> 
-        <nbatributo>fija</nbatributo> 
-        <tipo>decimal</tipo>
-      </atributo>
-      <atributo> 
-        <nbatributo>isan</nbatributo> 
-        <tipo>decimal</tipo>
-      </atributo>
-    </atributos>
-
+        <ontologia> 
+          <nbontologia>conta</nbontologia>
+            <ideal> 
+              <nbideal>calculador de isan</nbideal>
+                <atributos>
+                  <atributo>
+                    <nbatributo>precio</nbatributo> 
+                    <tipo>decimal</tipo>
+                  </atributo>
+                  <atributo> 
+                    <nbatributo>liminf</nbatributo> 
+                    <tipo>decimal</tipo>
+                  </atributo>
+                  <atributo> 
+                    <nbatributo>limsup</nbatributo> 
+                    <tipo>decimal</tipo>
+                  </atributo>
+                  <atributo> 
+                    <nbatributo>tasa</nbatributo> 
+                    <tipo>decimal</tipo>
+                  </atributo>
+                  <atributo> 
+                    <nbatributo>fija</nbatributo> 
+                    <tipo>decimal</tipo>
+                  </atributo>
+                  <atributo> 
+                    <nbatributo>isan</nbatributo> 
+                    <tipo>decimal</tipo>
+                  </atributo>
 <metodos>
   <metodo>
     <nbmetodo>calcular isan</nbmetodo>
@@ -93,7 +88,9 @@
 </falso>
 </decision>
 </metodo>
-</metodos>            </ideal>
+</metodos>       
+                </atributos>
+             </ideal>
         </ontologia>
     </usuario>
 </xloco>
