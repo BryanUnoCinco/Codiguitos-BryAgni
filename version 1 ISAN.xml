@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xloco>
+<xloco> <version> 1 </version>
     <usuario> 
       <nbusuario>Rene</nbusuario>
         <ontologia> 
@@ -29,11 +29,8 @@
                   </atributo>
                   <atributo> 
                     <nbatributo>isan</nbatributo> 
-                    <tipo>decimal</tipo>
-                  </atributo>
-<metodos>
-  <metodo>
-    <nbmetodo>calcular isan</nbmetodo>
+                    <tipo> <metodo> <nbmetodo>calcular isan</nbmetodo>
+    
   <asignacion>
     <atributo>precio</atributo>
     <operando>250</operando>
@@ -80,6 +77,7 @@
                       <asignacion>
                         <atributo>cuota</atributo>
                         <operando>5</operando>
+
                       </asignacion>
                   </metodo>
                </falso>
@@ -88,7 +86,8 @@
 </falso>
 </decision>
 </metodo>
-</metodos>       
+</tipo>
+</atributo>       
                 </atributos>
              </ideal>
         </ontologia>
